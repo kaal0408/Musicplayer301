@@ -9,16 +9,16 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "")
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME")
-API_ID = int(getenv("API_ID", "8186557"))
-API_HASH = getenv("API_HASH", "efd77b34c69c164ce158037ff5a0d117")
-OWNER_NAME = getenv("OWNER_NAME", "Hayat_Murat_30")
-ALIVE_NAME = getenv("ALIVE_NAME", "Null")
-ASSISTANT_USERNAME = getenv("ASSISTANT_USERNAME", "Hayat_Murat_30")
-BOT_USERNAME = getenv("BOT_USERNAME")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "null")
+SESSION_NAME = "AQDBXxUMG9blVMXt_2KG-SZVVO8XRHUkxyuVbYthIPKNAoqFBfzAObNam1KUVp35ZGsHUlHmgVzZri-Xt50xIRuhc95oAiD6IHu71kriAhaBYtnbq-B6buf8jdaCpIuiOK9pkGI1T5u1Iwv5-ICrge9cJ2AbDUpCEw0mG1XC9hSqFyfQe5dgxhIujom-MHjl5VzMBjQIuYkNXtOUxkgJaNQwZVlUa3abS1AbblZHrF2oXh9ckb6MAHv2brHLNqgPFMqcgUV3K6Xb7JXmju3SNhU0eDish3A-xH72KXuiLS9jZtsfZKdYJq71PhTgRhOTQ9zA1LyXKkOfSaoL9Z50chuiAAAAAT853DcA"
+BOT_TOKEN = "1822641510:AAFAaTnXRbtVq_PL0S6626POB92WyGWfgLw"
+BOT_NAME = "Pikachu"
+API_ID = "12055423"
+API_HASH = "81c7d8ab7d4b5634d58006071181fbae"
+OWNER_NAME = "Hayat_Murat_30"
+ALIVE_NAME = "Music"
+ASSISTANT_USERNAME = "Visiyv6383"
+BOT_USERNAME = "Pikachu_x_bot"
+ASSISTANT_NAME = "Assistant"
 SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/c83b000f004f01897fe18.png")
